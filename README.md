@@ -2,7 +2,7 @@
 
 A clean and responsive Sign Up form built with HTML5 and CSS3. This project focuses on form structure, accessibility, client-side validation, and user experience using modern CSS techniques.
 
-![Project Live view](./assets/screenshot.png) <!-- Replace with actual screenshot path if available -->
+🔗 [Live Demo](https://abdulkarimmziya.github.io/odin_sign_up_form/)
 
 ---
 
