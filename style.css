@@ -133,6 +133,20 @@ main .container {
 .form-row input {
     width: 80%;
     padding: 4px 0 4px 8px;
+
+    border: 1px solid var(--input-border-default);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+input:invalid {
+    border-color: var(--input-border-invalid);
+}
+
+input:focus {
+    border-color: var(--input-border-focus);
+    box-shadow: var(--input-shadow-focus);
+    outline: none;
 }
 
 .form-row label {
