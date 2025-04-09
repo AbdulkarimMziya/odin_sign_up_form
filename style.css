@@ -1,3 +1,22 @@
+:root {
+    /* Font */
+    --main-font-family: "Helvetica", "Arial", sans-serif;
+    
+    /* Button colors */
+    --button-color: #596D48;
+        
+    /* Input colors */
+    --input-border-default: #E5E7EB;
+    --input-border-invalid: #ff0000; /* Red for invalid password */
+    --input-border-focus: #1a73e8; /* Blue for focused input */
+    --input-shadow-focus: 0 0 5px rgba(26, 115, 232, 0.3); /* Subtle blue shadow */
+        
+    /* Other colors from the background image */
+    --dark-accent: #2A3A1F;
+    --light-accent: #7A8B65;
+    --neutral-accent: #D9D9D9;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +26,9 @@
 .wrapper {
     display: flex;
     align-items: center;
+
+    font-size: 16px;
+    color: white;
 }
 
 aside {
@@ -29,9 +51,12 @@ aside {
     position: absolute;
     top: 20%;
 
-    color: white;
     width: 100%;
-    padding: 2rem;
+    padding: 3rem;
+}
+
+.title_container h1 {
+    font-size: clamp(12px, (1rem + 5vw), 50px);
 }
 
 .photo_credit {
@@ -41,8 +66,10 @@ aside {
 
     padding: 1rem;
     text-align: center;
-    color: white;
+    font-size: clamp(8px, (1rem + 5vw), 14px);
+    color: var(--neutral-accent);
 }
+
 .photo_credit .underline {
     text-decoration: underline;
 }
