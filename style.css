@@ -19,3 +19,30 @@ aside {
     background-position: center;
     filter: brightness(90%);
 }
+
+.title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 20%;
+
+    color: white;
+    width: 100%;
+    padding: 2rem;
+}
+
+.photo_credit {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+.photo_credit .underline {
+    text-decoration: underline;
+}
